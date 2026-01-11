@@ -1,0 +1,6 @@
+boto3
+watchdog
+python-dotenv
+requests
+m3u8
+yt-dlp
