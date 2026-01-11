@@ -1,3 +1,5 @@
 @echo off
-python thumbnail_maker.py
+title Thumbnail Maker
+cd /d "%~dp0"
+call check_and_run.bat thumbnail_maker.py
 pause

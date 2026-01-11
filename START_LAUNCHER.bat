@@ -1,3 +1,5 @@
 @echo off
-python launcher.py
+title Launcher
+cd /d "%~dp0"
+call check_and_run.bat launcher.py
 pause

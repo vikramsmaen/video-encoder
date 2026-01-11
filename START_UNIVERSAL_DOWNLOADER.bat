@@ -1,4 +1,5 @@
 @echo off
+title Universal Downloader
 cd /d "%~dp0"
-python ytdlp_downloader_gui.py
+call check_and_run.bat ytdlp_downloader_gui.py
 pause
